@@ -1,0 +1,300 @@
+/*Footer------------ */
+.br{
+  background-color: black;
+}
+.footer-background{
+  background-image: url(/images/skyline.png);
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 275px;
+}
+
+.footer a {
+  color: #000;
+  font-family: 'Montserrat';
+  text-decoration: none;
+  font-size: medium;
+  letter-spacing: 1px;
+  margin-left: 900px;
+}
+
+.footer a:hover {
+  color: #00d2ff !important;
+  cursor: pointer;
+}
+
+.footer h4 {
+ color: #4a4a4a;
+ font-family: "Montserrat";
+ font-size: medium;
+ letter-spacing: 1px;
+ margin: -10px 20px;
+}
+
+footer .img-thumbnail {
+  background: transparent;
+  border: transparent;
+  margin-bottom: 0px;
+}
+
+footer .copyright {
+  padding: 15px 0;
+  background: #fff;
+  margin-top: 20px;
+  font-size: 15px;
+  font-family: 'Montseratt' !important;
+}
+
+footer .copyright span {
+  color: #000 !important;
+  font-family: 'Montseratt' !important;
+  font-size: small;
+}
+.p{
+  font-size:smaller !important;
+  color: #000 !important;
+  font-family: 'Montserrat' !important;
+}
+
+/*Modal------------ */
+
+.modal-header{
+  background-color: #4a4a4a;
+  color:#fff;
+  font-family: 'Montserrat';
+  font-weight: normal;
+}
+.modal-body{
+  background-color:#4a4a4a;
+  color: white;
+  cursor: pointer;
+  border-color: transparent;
+}
+.form-floating{
+  width: 300px;
+  height: 40px;
+}
+.floatingTextarea2{
+  color: #4a4a4a;
+}
+.form-check-input{
+  background-color:white !important;
+}
+.btn-primary{
+  border-color: #cf0 !important;
+  background-color: transparent !important;
+  color: white !important;
+}
+.btn-primary:hover{
+  border-color: #00d2ff !important;
+  color: white !important;
+  font-family: 'Montserrat';
+}
+.form-check-label{
+  font-family: 'Montserrat'!important;
+}
+
+.modal-footer{
+  background-color: #4a4a4a;
+}
+/*Jumbotron------------ */
+.jumbotron {
+  background-image: url(/images/row.aerialview.jpeg);
+  background-size: cover;
+-webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+.display-4{
+  text-align: center;
+  font-family: 'Bebas Neue';
+  font-size: 120px !important;
+  letter-spacing:10px;
+  color: white
+}
+.display-4:hover{
+  color: white;
+  cursor: pointer;
+}
+@supports (-webkit-text-stroke: 1px white) {
+  h1 {
+    -webkit-text-stroke: 1px white;
+    -webkit-text-fill-color: transparent;
+  }
+}
+}
+.lead{
+  text-align: center;
+}
+.banner{
+  background-image: url(/images/astros.logo.png);
+}
+hr {
+  display: block;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-bottom: none;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #fff;
+  }
+
+/*Navbar------------ */
+.navbar-expand-lg{
+    background-color: black;
+}
+.customNav{
+    background-color: black;
+}
+
+.nav-item:active{
+    color:#00d2ff !important;
+    cursor: pointer;
+}
+.navbarDropdown{
+    background-color: black;
+    color:#00d2ff
+}
+
+.navbar a{
+    color: #00d2ff !important;
+    cursor: pointer;
+  }
+  .nav-link{
+    font-size: smaller;
+    font-family: 'Montserrat';
+    cursor: pointer;
+  }
+  .nav-link:hover{
+    color: white !important;
+    cursor: pointer;
+  }
+  .btn-outline-success{
+    border-color: #cf0 !important;
+    background-color: transparent !important;
+    font-family: 'Montserrat';
+    color: white !important;
+    font-size: smaller;
+    border-style: solid;
+    border-width: .5px;
+    cursor: pointer;
+    font-size: smaller !important;
+  }
+  .btn-outline-success:hover{
+    background-color: transparent !important;
+    border-color: #00d2ff !important;
+    color: white !important;
+    cursor: pointer;
+  }
+  .btn-outline-success:active{
+    background-color: transparent !important;
+    color:white;
+    cursor: pointer;
+    font-size: smaller !important;
+  }
+  .dropdown-menu{
+    background-color: black !important;
+    
+  }
+  .dropdown-item:hover{
+    background-color: white;
+  }
+  .navbar .dropdown-item{
+    font-size: smaller;
+  }
+  .form-control{
+    background-color: transparent !important;
+    border-color: gray !important;
+    color: gray !important;
+    font-size: smaller !important;
+    font-family: "Montserrat" !important;
+  }
+
+/* WORKOUT CARDS */  
+  .cardContainer {
+    margin-bottom: 0px;
+    background-color: black;
+  }
+  .card {
+    margin: 0 auto;
+    color:white;
+    background-color: black;
+    border-color: black !important;
+  }
+  .card-body{
+    background-color: black;
+    cursor: pointer;
+  }
+  .card-title{
+    text-align: center;
+    font-family: 'Bebas Neue';
+    font-size: 48px;
+    font-weight: 100;
+    color: transparent;
+    -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: .3px;
+    -webkit-text-stroke-color: white
+  }
+  .card-title:hover{
+    -webkit-text-fill-color: #cf0 !important;
+  }
+
+  .card-subtitle{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight:lighter
+  }
+  
+  .card-text{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: x-large;
+    color: #fff;
+    font-weight: lighter;
+  }
+
+/*PRELOADING------------ */
+.overlayer {
+  width:100%;
+  height:100%;  
+  position:absolute;
+  z-index:1;
+  background:#000000;
+}
+.loader {
+  display: flex;
+  width: %;
+  height: 10vh;
+  position: fixed;
+  z-index:1;
+  border: 2px solid transparent;
+  top: 50%;
+  animation: loader 5s ease;
+  transform: translate(-50%, -50%);
+  align-items: center; 
+}
+
+
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  
+  25% {
+    transform: rotate(180deg);
+  }
+  
+  50% {
+    transform: rotate(180deg);
+  }
+  
+  75% {
+    transform: rotate(360deg);
+  }
+  
+  100% {
+    transform: rotate(360deg);
+  }
+}
