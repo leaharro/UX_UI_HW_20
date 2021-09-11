@@ -1,3 +1,44 @@
+/*Modal------------ */
+
+.modal-header{
+  background-color: #4a4a4a;
+  color:#fff;
+  font-family: 'Montserrat';
+  font-weight: normal;
+}
+.modal-body{
+  background-color:#4a4a4a;
+  color: white;
+  cursor: pointer;
+  border-color: transparent;
+}
+.form-floating{
+  width: 300px;
+  height: 40px;
+}
+.floatingTextarea2{
+  color: #4a4a4a;
+}
+.form-check-input{
+  background-color:white !important;
+}
+.btn-primary{
+  border-color: #cf0 !important;
+  background-color: transparent !important;
+  color: white !important;
+}
+.btn-primary:hover{
+  border-color: #00d2ff !important;
+  color: white !important;
+  font-family: 'Montserrat';
+}
+.form-check-label{
+  font-family: 'Montserrat'!important;
+}
+
+.modal-footer{
+  background-color: #4a4a4a;
+}
 
 
 .footer {
@@ -28,6 +69,8 @@
   background-color: #000000;
   border-color: #00d2ff;
   color: gray;
+  font-size: 12px;
+  font-weight: 100px;
 }
 .navbar a{
   color: #00d2ff !important;

@@ -10,7 +10,7 @@
   padding: 0;
   position: relative;
   display: flex;
-  flex direction column;
+  flex direction: column;
 }
 
 
@@ -59,7 +59,15 @@ footer .copyright {
   font-size: 15px;
   font-family: 'Montseratt' !important;
 }
-
+footer .two-column {
+  overflow: hidden;
+ }
+ 
+ footer .two-column li{
+  width: 50%;
+   float: left;
+   padding: 5px 0;
+ }
 footer .copyright span {
   color: #000 !important;
   font-family: 'Montseratt' !important;
@@ -252,7 +260,7 @@ hr {
     -webkit-text-stroke-color: white
   }
   .card-title:hover{
-    -webkit-text-fill-color: #cf0 !important;
+    -webkit-text-stroke-color: #cf0 !important;
   }
 
   .card-subtitle{
